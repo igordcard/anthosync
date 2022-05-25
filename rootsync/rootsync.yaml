@@ -6,8 +6,9 @@ metadata:
 spec:
   sourceFormat: unstructured
   git:
-   repo: https://github.com/igordcard/anthosync.git
-     branch: main
-     dir: clusters
-     auth: none
-     noSSLVerify: false
+    repo: https://github.com/igordcard/anthosync.git
+    revision: HEAD
+    branch: main
+    dir: "clusters"
+    auth: none
+    noSSLVerify: false

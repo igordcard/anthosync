@@ -1,0 +1,14 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: RootSync
+metadata:
+  name: emco-rootsync
+  namespace: config-management-system
+spec:
+  sourceFormat: unstructured
+  git:
+   repo: https://github.com/igordcard/anthosync.git
+     revision: HEAD
+     branch: main
+     dir: "/clusters"
+     auth: none
+     noSSLVerify: false

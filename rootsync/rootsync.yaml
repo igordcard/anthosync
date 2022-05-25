@@ -9,6 +9,6 @@ spec:
    repo: https://github.com/igordcard/anthosync.git
      revision: HEAD
      branch: main
-     dir: "/clusters"
+     dir: "clusters"
      auth: none
      noSSLVerify: false

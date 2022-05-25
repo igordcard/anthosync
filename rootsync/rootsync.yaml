@@ -6,7 +6,7 @@ metadata:
 spec:
   sourceFormat: unstructured
   git:
-   repo: https://github.com/igordcard/anthosync.git
+   repo: "https://github.com/igordcard/anthosync.git"
      branch: main
      dir: "/clusters"
      auth: none

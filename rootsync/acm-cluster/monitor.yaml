@@ -16888,12 +16888,13 @@ spec:
     storage: true
     subresources:
       status: {}
-status:
-  acceptedNames:
-    kind: ""
-    plural: ""
-  conditions: []
-  storedVersions: []
+# CRD doesn't need, and shouldn't have, a status field:
+#status:
+#  acceptedNames:
+#    kind: ""
+#    plural: ""
+#  conditions: []
+#  storedVersions: []
 ---
 # Source: monitor/templates/clusterrole.yaml
 # SPDX-License-Identifier: Apache-2.0

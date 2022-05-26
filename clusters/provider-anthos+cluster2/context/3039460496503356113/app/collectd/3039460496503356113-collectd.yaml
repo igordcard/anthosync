@@ -1,0 +1,1 @@
+{"TypeMeta":null,"metadata":{"creationTimestamp":null,"labels":{"emco/deployment-id":"3039460496503356113-collectd"},"name":"3039460496503356113-collectd","namespace":"default"},"spec":{"selector":{"matchLabels":{"emco/deployment-id":"3039460496503356113-collectd"}}}}
